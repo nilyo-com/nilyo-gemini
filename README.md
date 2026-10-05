@@ -19,4 +19,4 @@ Prepared package version 0.1.0. Manifest/contracts are checked locally; installa
 
 ## Release status
 
-Preview 0.1.0. Public source distribution; not yet nominated for automatic gallery discovery. Real Gemini CLI installation, token expansion/keychain behavior, bounded reads and revocation remain validation gates.
+Preview 0.1.0. Public preview submitted for automatic Gemini CLI gallery discovery. Appearance in the gallery depends on Google crawler validation. Real Gemini CLI installation, token expansion/keychain behavior, bounded reads and revocation remain validation gates.
