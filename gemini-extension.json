@@ -1,0 +1,37 @@
+{
+  "name": "nilyo",
+  "version": "0.1.0",
+  "description": "Search and read your own LinkedIn, WhatsApp, Instagram, Telegram and Email accounts through Nilyo. Selected read tools only.",
+  "mcpServers": {
+    "nilyo": {
+      "httpUrl": "https://nilyo.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${NILYO_TOKEN}"
+      },
+      "includeTools": [
+        "list_connected_accounts",
+        "agent_capability_guide",
+        "agent_id_guide",
+        "linkedin_get_profile_from_url",
+        "linkedin_resolve_person",
+        "linkedin_search_people",
+        "linkedin_list_conversations",
+        "linkedin_read_conversation",
+        "message_resolve_chat",
+        "messaging_list_recent_messages",
+        "email_resolve_message",
+        "email_resolve_folder",
+        "email_read_message"
+      ]
+    }
+  },
+  "contextFileName": "GEMINI.md",
+  "settings": [
+    {
+      "name": "Nilyo personal token",
+      "description": "Create an individual revocable token at https://nilyo.com/account. Never use a Unipile API key.",
+      "envVar": "NILYO_TOKEN",
+      "sensitive": true
+    }
+  ]
+}
